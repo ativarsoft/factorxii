@@ -26,7 +26,8 @@ library project FactorXII is
    for Library_Kind use "static";
    for Library_Name use "gnat";
 
-   for Runtime ("Ada") use "build";
+   --  Select the runtime like this, for a program or kernel.
+   --  for Runtime ("Ada") use "build";
 
    --  Cross-compilation
    --  for Target use "i686-elf";
